@@ -10,10 +10,9 @@ class LeadsController < ApplicationController
 	end
 
 	def create
-		@salesForce= Rd_challenge.new("vivianecosta2794-46qy@force.com","vivi123456","pYZs1lIFOo9ifLeBPFQf6QWKnBNdv")
- 		 
-		person = Lead.new(lead_params) 
-  		
+		@salesForce= Rd_challenge.new("vivianecosta2794-46qy@force.com","vivi123456","pYZs1lIFOo9BPFQf6QWKnBNdv")
+ 		person = Lead.new(lead_params) 
+  		@salesForce.createLead(person.Name,person.LastName,person.Email,person.Company,person.Title,person.Phone,person.Website)
 
  	end 
 
