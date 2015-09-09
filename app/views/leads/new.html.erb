@@ -1,0 +1,47 @@
+
+    <form class="bootstrap-frm">
+
+        <h1>Contact Form </h1>
+        <span>Please fill all the texts in the fields.</span>
+        <br><br>
+        <%= form_for :person, :url => { :action => "create" } do |l|  %>
+
+      	<div class="field"> 
+    	    <label>
+                <span>Name:</span>
+                <%= l.text_field :name %><br>      
+            </label>
+            <label>
+                <span> Last Name:</span>
+                <%= l.text_field :lastName %><br>
+    	    </label>
+            <label>
+            <span>Email:</span>
+            <%= l.text_field :email %><br>
+    	    </label>
+            <label>
+                <span>Company:</span>
+                <%= l.text_field :company %><br>
+        	</label>
+            <label>
+                <span>Job_title:</span>
+                <%= l.text_field :title %><br>
+        	</label>
+            <label>
+                <span>Phone:</span>
+                <%= l.text_field :phone %><br>
+        	</label>
+            <label>
+            <span>Website:</span>
+                <%= l.text_field :website %><br>
+            </label>      	
+        </div> 
+      	    <br>
+        	<%= l.submit%> 
+      	 
+        
+        <% end %>
+    </form>   
+
+
+

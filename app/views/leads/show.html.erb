@@ -1,0 +1,27 @@
+
+<h1> Table of current leads</h1>
+<table class="flatTable">
+
+	<tr class="headingTr"> 
+		<td> Name</td>
+		<td> Last Name </td>
+		<td> Email </td>
+		<td> Company</td>
+		<td> Job Title </td>
+		<td> Phone </td>
+		<td > Website</td>
+	</tr>
+		<%= @leads.each do |l| %>
+			<tr>
+			  	<td><%=l.Name%></td>
+			  	<td><%=l.LastName%></td>
+			  	<td><%=l.Email%></td>
+			  	<td><%=l.Company%></td>
+			  	<td><%=l.Title%></td>
+			  	<td><%=l.Phone%></td>
+			  	<td><%=l.Website%></td>
+
+		  	</tr>
+		<% end %>
+
+</table>

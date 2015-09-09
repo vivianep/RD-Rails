@@ -1,0 +1,192 @@
+
+body{
+  background:url(http://wallfullhd.com/wp-content/uploads/2015/04/plain-light-color-for-guest-background.jpg) ;
+}
+
+*{  
+  margin:0;
+  padding:0;
+  font-family:'Roboto', sans-serif;
+}
+
+.bootstrap-frm {
+	
+    margin-left:auto;
+	  margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    background: #dfe3ee;
+    padding: 20px 30px 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+.bootstrap-frm h1 {
+    font: 60px 'Roboto', sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 2px solid #FFF;
+    margin: 0px -30px 30px -30px;
+    color: #FFF;
+}
+.bootstrap-frm h1>span {
+    display: block;
+    font-size: 11px;
+}
+.bootstrap-frm label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.bootstrap-frm label>span {
+    float: left;
+	width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #000;
+    font-family:font-family: 'Roboto', sans-serif;
+   
+}
+.bootstrap-frm input[type="text"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select{
+    border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+	line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.bootstrap-frm select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+	line-height:15px;
+}
+.bootstrap-frm textarea{
+    height:100px;
+	padding: 5px 0px 0px 5px;
+	width: 70%;
+}
+.bootstrap-frm .button  {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+
+.bootstrap-frm input[type="submit"]{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 15px 35px 15px 35px;
+    color: #333;
+    border-radius: 4px;
+    margin-left:  auto;
+    margin-right:  auto;
+    display: block;
+}
+.bootstrap-frm .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+
+body{
+  padding:0px;
+  background:@bg;
+}
+
+.flatTable{  
+  width:70%;
+  min-width:500px;
+  border:4px;
+  color:#000;
+  margin: 0 auto;
+} 
+tr{
+    height:50px;
+    background:#f7f7f7;
+    border-bottom:rgba(0,0,0,.05) 3px solid;
+}
+  
+  td{    
+    box-sizing:border-box;
+    padding-left:30px;
+    
+}
+
+.plusTd{
+    background:url(http://i.imgur.com/3hSkhay.png) center center no-repeat, rgba(0,0,0,.1);
+}
+
+.controlTd{  
+  position:relative;
+  width:80px;
+  background:url(http://i.imgur.com/9Q5f6cv.png) center center no-repeat;
+  cursor:pointer;
+}
+
+.headingTr{
+    height:70px;
+    background:#3b5998;
+    color:#FFF; 
+    font-size:20px;
+    border:1px solid;
+}  
+}
+
+.button{
+  text-align:center;
+  cursor:pointer;
+}
+
+  
+  .title{
+    width:100%;
+    height:70px;
+    padding-top:20px;
+    padding-left:20px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,.1);
+  }
+
+.open{  
+  right:0;
+  width:400px !important;
+}
+
+
+.display{
+
+  width:300px;
+}
+
+tr:nth-child(3){
+   .settingsIcon{
+    height:51px;
+  }
+}
+
+.openIcon{
+   width:80px; 
+}
