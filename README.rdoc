@@ -1,28 +1,26 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was built to show the use of the gem rd_challenge_vivianec, which makes the insertion and returning of Leads from a SalesForce account simple as making a call to a function.
 
-Things you may want to cover:
+This application was developed with ruby version 2.2.
 
-* Ruby version
+To install the gems needed, run the command
 
-* System dependencies
+$ bundle install
 
-* Configuration
+To run the application
 
-* Database creation
+$ rails s -p port_number 
 
-* Database initialization
+==FUNCTIONALITIES
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+-Create (/create)
+  
+    Create a new Lead on the SalesForce account.
+    
+-Show (/show)
+    
+    Show all the leads currently registered on the Salesforce account of the user.
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
