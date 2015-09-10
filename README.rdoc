@@ -6,9 +6,9 @@ This application was developed with ruby version 2.2.
 
 To install the gems needed, run the command
 
-$ bundle install
+-$ bundle install
 
-To run the application
+-To run the application
 
 $ rails s -p port_number 
 
@@ -16,11 +16,11 @@ $ rails s -p port_number
 
 ===Create (/create)
   
-    Create a new Lead on the SalesForce account.
-    
+  Create a new Lead on the SalesForce account.
+ 
 ===Show (/show)
-    
-    Show all the leads currently registered on the Salesforce account of the user.
+
+  Show all the leads currently registered on the Salesforce account of the user.
 
 
 <tt>rake doc:app</tt>.
