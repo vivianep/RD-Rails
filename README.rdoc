@@ -14,13 +14,13 @@ $ rails s -p port_number
 
 ==FUNCTIONALITIES
 
--Create (/create)
+===Create (/create)
   
     Create a new Lead on the SalesForce account.
     
--Show (/show)
+===Show (/show)
     
     Show all the leads currently registered on the Salesforce account of the user.
 
-Please feel free to use a different markup language if you do not plan to run
+
 <tt>rake doc:app</tt>.
